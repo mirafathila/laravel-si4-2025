@@ -38,6 +38,12 @@
 
 <div class="container" style="margin-left: 30px">
     <h1>Ini Adalah Halaman Mahasiswa</h1>
+
+    <div class="row">
+        <div class="col-4" style="background-color: yellow">Halaman A</div>
+        <div class="col-4" style="background-color: blue">Halaman B</div>
+        <div class="col-4" style="background-color: green">Halaman C</div>
+    </div>
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
