@@ -11,7 +11,10 @@ Route::get('about', function () {
 });
 
 Route::get('mahasiswa', function () {
-    return view('mahasiswa');
+    $npm = [123,124,125,126];
+    $nama = ['Mira','Indah','Mauli','Riska'];
+    $jumlah = count($npm);
+    return view('mahasiswa',compact('npm','jumlah','nama'));
 });
 
 Route::get('profil', function () {
