@@ -18,3 +18,11 @@ Route::get('profil', function () {
     $nama = 'Mira';
     return view('profil', compact('nama'));
 });
+
+Route::get('array',function(){
+    $nilai_awal = 1;
+    while ($nilai_awal <= 100) {
+        echo 'Hello Laravel' . $nilai_awal . 'x<br>';
+        $nilai_awal++;
+    }
+});
